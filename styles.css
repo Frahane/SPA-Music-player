@@ -377,7 +377,7 @@ body {
     height: 50%;
     text-align: center;
     align-content: center;
-    .window-p{
+    /*.window-p{
       position: relative;
       top: 4%;
       font-size: 0.7em;
@@ -388,7 +388,7 @@ body {
     #close-message {
       position: relative;
       top: 5.8%;
-    }
+    }*/
     
 }
 
