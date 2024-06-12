@@ -1,0 +1,502 @@
+@media screen and (max-width: 480px) {
+/*Mobile Phones (portrait*/
+  /*.background {
+          background-image: url('Img/heart-picture-frame.png');
+          background-size: cover;
+          background-position: center;
+          padding-bottom: 60%;
+        }
+        
+   .sotere2 {
+       width: 140px;
+       height: 140px;
+       border-radius: 50%;
+       margin-left: 33%;
+     }
+     
+   .heart {
+       animation: heartbeat 1.2s infinite;
+       padding-bottom: 10%;
+       width: 100px;
+       position: relative;
+       right: -39%;
+       margin-top: 4%;
+      }*/
+      
+ .website {
+  top: 95px;
+  padding-right: 50px;
+  background: -webkit-linear-gradient(70deg, #db2923, #530000);
+  background: linear-gradient(70deg, #db2923, #530000);
+}
+}
+
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /*Mobile Phones (landscape)*/
+  /*.background {
+          background-image: url('Img/heart-picture-frame.png');
+          background-size: cover;
+          background-position: center;
+          padding-bottom: 60%;
+        }
+        
+   .sotere2 {
+       width: 150px;
+       height: 150px;
+       border-radius: 50%;
+       margin-left: 37%;
+     }
+     
+   .heart {
+       animation: heartbeat 1.2s infinite;
+       padding-bottom: 10%;
+       width: 100px;
+       position: relative;
+       right: -42%;
+       margin-top: 4%;
+      }*/
+      
+    .website {
+       top: 22px;
+       padding-right: 50px;
+       background: -webkit-linear-gradient(70deg, #db2923, #530000);
+       background: linear-gradient(70deg, #db2923, #530000);
+}
+  
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  /*Tablets*/
+  /*.background {
+          background-image: url('Img/heart-picture-frame.png');
+          background-size: cover;
+          background-position: center;
+          padding-bottom: 60%;
+        }
+        
+   .sotere2 {
+       width: 140px;
+       height: 140px;
+       border-radius: 50%;
+       margin-left: 43%;
+     }
+     
+   .heart {
+       animation: heartbeat 1.2s infinite;
+       padding-bottom: 12%;
+       width: 125px;
+       position: relative;
+       right: -43%;
+       margin-top: 7%;
+      }*/
+  .website {
+  top: 22px;
+  padding-right: 50px;
+  background: -webkit-linear-gradient(70deg, #db2923, #530000);
+  background: linear-gradient(70deg, #db2923, #530000);
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+  /*Laptops and Desktops*/
+  
+   #play-all-btn:hover,
+        #shuffle-btn:hover,
+        #repeat-btn:hover {
+            background-color: #45a049;
+        }
+        
+         .github:hover,
+        .mail:hover,
+        .website:hover {
+            background-color: #45a049;
+           
+        }
+        
+        .github {
+          position: relative;
+          top: 40px;
+          
+        }
+        
+       
+        
+        .website {
+          top: 22px;
+          padding-right: 50px;
+          background: -webkit-linear-gradient(70deg, #db2923, #530000);
+          background: linear-gradient(70deg, #db2923, #530000);
+}
+  
+  /*.background {
+          background-image: url('Img/heart-picture-frame.png');
+          background-size: cover;
+          background-position: center;
+          padding-bottom: 60%;
+        }
+        
+   .sotere2 {
+       width: 140px;
+       height: 150px;
+       border-radius: 50%;
+       margin-left: 43%;
+     }
+     
+   .heart {
+       animation: heartbeat 1.2s infinite;
+       padding-bottom: 8%;
+       width: 155px;
+       position: relative;
+       right: -43%;
+       margin-top: 4%;
+      }*/
+  
+}
+
+
+
+.body-container {
+  /*background-color: whitesmoke;*/
+border-radius: 30px;
+padding-bottom: 300px;
+
+}
+
+.body-container {
+background: -webkit-linear-gradient(45deg, #ff4700, #da1bd3);
+
+background: linear-gradient(45deg, #ff4700, #da1bd3);
+}
+
+body {
+  background-color: black;
+  
+}
+
+
+.body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 80%;
+            /*background-color: #D32F2F;*/
+            border-radius: 10px;
+            box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.9);
+            border: 1px solid whitesmoke;
+            
+        }
+        
+        .body {
+        
+
+     background: -webkit-linear-gradient(180deg, #ff0015, #af22da);
+
+     background: linear-gradient(180deg, #ff0015, #af22da);
+
+
+        }
+
+        #song-list-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            
+        }
+
+        #song-list-container div {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 10px;
+            color: white;
+        }
+
+        #song-list-container div:hover {
+             background-color: paleturquoise;
+             color: black;
+        }
+        
+        input [type="file"] {
+          border: 2 px solid green;
+          
+        }
+        
+        input [type="file"]:focus {
+          outline: none;
+        }
+
+        #audio-player {
+            margin-top: 20px;
+        }
+        
+        .marquee {
+          background-color: black;
+          border-radius: 10px;
+          padding: 3px;
+          color: white;
+          transform: scale(1, 1.1);
+        }
+
+        #play-all-btn,
+        #shuffle-btn,
+        #repeat-btn {
+            margin: 10px;
+            padding: 8px;
+            cursor: pointer;
+            background: -webkit-linear-gradient(45deg, #ff051b, #e261ef);
+            background: linear-gradient(45deg, #ff051b, #e261ef);
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #shuffle-btn,
+        #repeat-btn {
+            background-color: #008CBA;
+        }
+
+        
+         #play-all-btn:active,
+        #shuffle-btn:active,
+        #repeat-btn:active {
+          background-color: #00C853;
+        }
+        
+         .github:active,
+        .mail:active,
+        .website:active {
+          background-color: #00C853;
+        }
+        
+        
+        .swing {
+          width: 100px;
+          border-radius: 10px;
+        }
+        
+        /*.valentine {
+          float: right;
+          font-size: 25x;
+          font-weight: bolder;
+          color: #D32F2F;
+          font-style: italic;
+          padding-bottom: 20px;
+          width: 200px;
+        }
+        
+        .background {
+          background-image: url('Img/heart-picture-frame.png');
+          background-size: cover;
+          background-position: center;
+        }
+        
+         @keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  70% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}*/
+
+
+
+/*@keyframes swing {
+    0% {
+        transform: rotate(-13deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+.swing {
+    transform-origin: top;
+    animation-name: swing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+    }
+}
+
+.valentine {
+    animation-name: flip;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}*/
+
+#message-window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    z-index: 9999;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+    .window-p{
+      position: relative;
+      top: 4%;
+      font-size: 0.7em;
+      color: black;
+      font-weight: 1px;
+      transform: scale(1, 1.3);
+    }
+    #close-message {
+      position: relative;
+      top: 5.8%;
+    }
+    
+}
+
+/*#message-window {
+  
+background: -webkit-linear-gradient(135deg, #d40002, #0500ff);
+
+background: linear-gradient(135deg, #d40002, #0500ff);
+}*/
+
+#message-window p {
+    margin: 0;
+    color: white;
+    text-align: center;
+    
+}
+
+#close-message {
+    padding: 8px 30px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.github, .mail {
+  /*background-color: #FF172A3F;*/
+  background-color: #172A3F;
+  border-radius: 8px;
+  padding: 30px;
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  
+}
+
+.website {
+  /*background-color: #FF172A3F;*/
+  background-color: #172A3F;
+  border-radius: 8px;
+  padding: 30px;
+  padding-right: 55px;
+  margin-left: 20px;
+  position: relative;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  
+}
+
+
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  transform: scale(1, 1.4);
+}
+
+.full-stack {
+  font-weight: bold;
+  transform: scale(1, 2.5);
+  opacity: 1;
+  background-image: linear-gradient(90deg, #ff0001, #5d04da); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+
+
+}
+
+.spa {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transform: scale(1, 1.2);
+  border: 1px solid whitesmoke;
+}
+
+
+/*@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+    }
+}
+
+.machourath {
+    animation-name: flip;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes backInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    80% {
+        transform: translateY(15%);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}*/

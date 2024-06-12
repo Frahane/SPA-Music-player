@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Music Player</title>
+    <!-- Include jQuery -->
+    <script src="jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img src="Img/Kurt Godel 2.png" class="swing" alt="">
+  <p class="full-stack">Full stack developer, I specialize in Frontend</p>
+  <p class="spa">SPA: Single Page Application</p>
+  <div class="body-container"><br>
+    <div class="body">
+     <!-- File input for selecting audio files -->
+    <input type="file" class="input" id="audio-input" accept="audio/*">
+
+    <!-- Container for the song list -->
+    <div id="song-list-container"></div>
+
+    <!-- Audio player and controls -->
+   <audio id="audio-player" controls>
+   <source src="" type="audio/mp3">
+   <source src="" type="audio/mp4">
+   Your browser does not support the audio element.
+   </audio><br>
+
+    <!-- Play All, Shuffle, and Repeat buttons -->
+    <button id="play-all-btn">Play All</button>
+    <button id="shuffle-btn">Shuffle</button>
+    <button id="repeat-btn">Repeat</button>
+    
+    <marquee behavior="scroll" direction="left" style="background-color: black; border-radius: 10px;">
+      <div class="marquee">𝐌𝐮𝐬𝐢𝐜 𝑃𝑙𝑎𝑦𝑒𝑟 𝑡𝑜 𝑙𝑖𝑠𝑡𝑒𝑛 𝑡𝑜 𝑡ℎ𝑒 𝑤𝑜𝑟𝑙𝑑 𝑤𝑜𝑛𝑑𝑒𝑟𝑠  💕</div>
+    </marquee>
+     
+  </div><br>
+  
+  <!-- <div>
+    <img src="Img/sotère2.jpg" class="sotere2" alt="">
+  </div>
+  <div class="background">
+    <img src="Img/heart-red-clip-art-heart.png" class="heart" alt="❤️">
+  </div> -->
+  
+  <div class="links">
+    <span class="github"><a href="https://github.com/Frahane">GitHub 🐈</a>
+   </span>
+   
+  <span class="mail"><a href="mailto:frahanebio@gmail.com">Send Email 📨</a>
+   </span>
+   
+   <span class="website"><a href="https://Frahane.netlify.app">Website</a>
+   </span><br>
+  </div>
+  
+  
+   
+  
+        <!-- Message window -->
+    <div id="message-window">
+        <p class="window-p">Created by Frahane BIO <br> (An integrated song should start playing once you click on "OK" button)</p>
+        <button id="close-message">OK</button>
+        
+        
+    </div><br>
+  </div>
+</body>
+</html>
